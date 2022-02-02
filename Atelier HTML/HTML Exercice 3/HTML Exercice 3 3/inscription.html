@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 align="center"><strong>Inspicription en license</strong></h1>
+    <form action="" align="center">
+      <fieldset>
+        <legend align="center">Informations personnelles</legend>
+        <label for="nom">Votre nom</label>
+        <input type="name" name="nom" id="nom" placeholder="votre nom?" />
+        <br />
+        <br />
+        <label for="prénom">Votre prénom</label>
+        <input
+          type="text"
+          name="prénom"
+          id="prénom"
+          placeholder="votre prénom?"
+        />
+        <br />
+        <br />
+        <label for="dns">Votre date de naissance</label>
+        <input
+          type="date"
+          name="dns"
+          id="dns"
+          placeholder="date de naissance?"
+        />
+        <br />
+        <br />
+        <label for="age">Votre age</label>
+        <input type="number" name="age" id="age" placeholder="votre age?" />
+        <br />
+        <br />
+        <label for="adresse">Votre adresse</label>
+        <textarea
+          name="text"
+          id="adresse"
+          cols="60"
+          rows="10"
+          placeholder="votre adresse?"
+        ></textarea>
+        <br />
+        <br />
+        <label for="passwrd">Mote de passe</label>
+        <input type="password" name="passwrd" id="passwrd" required />
+        <br />
+        <br />
+        <label for="password">Retappez votre mot de passe</label>
+        <input type="password" name="passwrd" id="passwrd" required />
+        <br />
+        <br />
+        <label for="email">Votre e-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="votre e-mail?"
+        />
+        <br />
+        <br />
+        <label for="site">Votre site</label>
+        <input type="url" name="site" id="site" placeholder="votre site?" />
+        <br />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend align="center">Gestion de Groupes des options</legend>
+        <label for="grp">Votre groupe</label>
+        <input type="radio" name="grp" id="grp" checked />Groupe 1
+        <input type="radio" name="grp" id="grp" />Groupe 2
+        <input type="radio" name="grp" id="grp" />Groupe 3
+        <br />
+        <br />
+        <label for="num">Numéro de carte d'étudiant</label>
+        <input
+          type="text"
+          name="num"
+          id="num"
+          placeholder="numéro de carte d'étudiant?"
+          cols="40"
+        />
+        <br />
+        <br />
+        <label for="choix">Choisissez les options que vous désirez</label>
+        <select name="choix" id="choix" size="5">
+          <option value="Android">Android</option>
+          <option value="Flutter">Flutter</option>
+          <option value="Python">Python</option>
+          <option value="C++">C++</option>
+          <option value="Java">Java</option>
+          <option value="C">C</option>
+          <option value="Javascript">Javascript</option>
+          <option value="C#">C#</option>
+          <option value="PHP">PHP</option>
+          <option value="Ruby">Ruby</option>
+        </select>
+        <br />
+        <br />
+        <input
+          type="text"
+          name="textarea"
+          id=""
+          pattern="[I][N][S][A][T][0-9]{4}"
+        />
+      </fieldset>
+      <button type="submit">valider</button>
+      <button type="reset">réinisialiser</button>
+    </form>
+  </body>
+</html>

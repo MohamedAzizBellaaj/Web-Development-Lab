@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+.image_top {
+  margin: auto;
+  height: 400px;
+  background: url("./img/logo.png") no-repeat left top,
+    url("./img/flash_img.png") no-repeat right top;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+li {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: aliceblue;
+  height: 70px;
+  background: #810f07;
+  width: 20%;
+}
+
+li:hover {
+  background: url("./img/rings.png") no-repeat right bottom;
+}
+
+.redtext {
+  color: #810f07;
+  font-size: 2em;
+}
+
+.continue {
+  color: #810f07;
+}
+
+.botContainer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  background: url("./img/image6.png") no-repeat right bottom;
+}
+
+.bienvenue {
+  font-size: 1.5em;
+}
+.halfwidth {
+  grid-column: span 2;
+}
+
+.solo {
+  padding-top: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
