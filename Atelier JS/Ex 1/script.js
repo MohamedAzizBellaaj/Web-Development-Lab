@@ -4,10 +4,13 @@ ul.addEventListener("click", (e) => {
   switch (level) {
     case "easy":
       gameInstance(10);
+      break;
     case "medium":
       gameInstance(15);
+      break;
     case "hard":
       gameInstance(20);
+      break;
   }
 });
 
@@ -20,7 +23,6 @@ function gameInstance(maxNumber) {
   if (x == reponse) {
     alert("You have won !");
   }
-  ul.removeEventListener();
 }
 function getRandomFrom0ToMax(max) {
   return Math.floor(Math.random() * (max + 1));
