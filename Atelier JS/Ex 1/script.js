@@ -22,6 +22,7 @@ function gameInstance(maxNumber) {
   }
   if (x == reponse) {
     alert("You have won !");
+    reponse = window.close();
   }
 }
 function getRandomFrom0ToMax(max) {
